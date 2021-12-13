@@ -1,0 +1,110 @@
+:root{
+  --background-primary: rgb(0, 230, 230);
+  --highlight-primary: #2f9886;
+}
+
+body {
+
+}
+
+.title-container {
+  height: 40vh;
+}
+
+.title-hello {
+  font-family: 'Bakbak One', cursive;
+  font-size: 10rem;
+  font-weight: 700;
+}
+
+.title-name {
+    color: var(--background-primary);
+    background-color: var(--highlight-primary);
+
+    font-family: 'Bakbak One', cursive;
+    font-size: 4rem;
+    font-weight: 800;
+
+    position: relative;
+    top: -2.5rem;
+}
+
+.title-tag{
+  font-family: 'Bakbak One', cursive;
+  font-size: 2rem;
+
+  position: relative;
+  top: -3rem;
+}
+
+.about-me-container {
+  width: 80vw;
+  height: 40vh;
+
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+
+  margin-left: 10vw;
+
+  background-color: var(--highlight-primary);
+}
+
+.about-me-image{
+  width: 18vw;
+  height: 18vw;
+
+  border-radius:100%;
+
+  box-shadow: 10px 5px 10px black;
+}
+
+.about-me-text {
+  color: var(--background-primary);
+
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+
+  font-size: 1.2rem;
+  font-family:'Bakbak One', cursive;
+}
+
+.contact-me-container {
+  margin-top:10vh;
+
+  font-size: 2rem;
+  font-weight: 700;
+  font-family:'Bakbak One', cursive;
+}
+
+.contact-me-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
+.achievements-container {
+  width:80vw;
+  margin-left: 10vw;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.achievements {
+  font-size: 0.95rem;
+  font-family:'Bakbak One', cursive;
+}
+
+.achievements-title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family:'Bakbak One', cursive;
+
+  margin-top:10vh;
+  margin-left: 10vw;
+}
+
+.achievements-image {
+  width: 40vw;
+  height: 20vw;
+  box-shadow: 10px 5px 10px black;
+}
